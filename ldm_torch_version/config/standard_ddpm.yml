@@ -1,0 +1,7 @@
+diffusion:
+  schedule_name: "linear"
+  num_diffusion_timesteps: 1000
+  model_mean_type: "EPSILON"
+  model_var_type: "FIXED_SMALL"
+  loss_type: "MSE"
+  rescale_timesteps: true
