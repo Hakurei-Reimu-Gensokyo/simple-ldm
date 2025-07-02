@@ -1,0 +1,7 @@
+diffusion:
+  schedule_name: "cosine"
+  num_diffusion_timesteps: 50
+  model_mean_type: "START_X"
+  model_var_type: "FIXED_LARGE"
+  loss_type: "RESCALED_KL"
+  rescale_timesteps: false
